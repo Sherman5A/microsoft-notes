@@ -1,0 +1,6 @@
+{
+  "catppuccin-theme-settings@@catppuccin-theme-dark": "ctp-macchiato",
+  "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-full-palette",
+  "catppuccin-font-styles@@ctp-blockquote": "var(--ctp-teal)",
+  "catppuccin-font-styles@@ctp-bold": "var(--ctp-sapphire)"
+}

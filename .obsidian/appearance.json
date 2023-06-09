@@ -1,0 +1,14 @@
+{
+  "theme": "obsidian",
+  "monospaceFontFamily": "Source Code Pro,Fira Code",
+  "translucency": false,
+  "cssTheme": "Catppuccin",
+  "textFontFamily": "Inter,Source Code Pro",
+  "baseFontSize": 19,
+  "accentColor": "#fb7e7e",
+  "nativeMenus": false,
+  "interfaceFontFamily": "",
+  "enabledCssSnippets": [
+    "math_size"
+  ]
+}

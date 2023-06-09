@@ -1,0 +1,58 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:ai",
+      "color": {
+        "a": 1,
+        "rgb": 14045521
+      }
+    },
+    {
+      "query": "path:sys-arch",
+      "color": {
+        "a": 1,
+        "rgb": 8092140
+      }
+    },
+    {
+      "query": "path:discrete-maths",
+      "color": {
+        "a": 1,
+        "rgb": 13299329
+      }
+    },
+    {
+      "query": "path:databases",
+      "color": {
+        "a": 1,
+        "rgb": 15564510
+      }
+    },
+    {
+      "query": "path:pop",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.88779650436954,
+  "lineSizeMultiplier": 2.88454275905119,
+  "collapse-forces": false,
+  "centerStrength": 0.545389524647887,
+  "repelStrength": 19.7810299295775,
+  "linkStrength": 0.939755721830986,
+  "linkDistance": 313,
+  "scale": 0.24187631067947,
+  "close": true
+}
