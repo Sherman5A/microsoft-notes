@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "azure/cloud-concepts/index-intro.md",
+                "file": "azure/cloud-concepts/cloud-benefits.md",
                 "mode": "preview",
                 "source": true
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "azure/cloud-concepts/index-intro.md",
+                "file": "azure/cloud-concepts/cloud-benefits.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "azure/cloud-concepts/index-intro.md",
+                "file": "azure/cloud-concepts/cloud-benefits.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "azure/cloud-concepts/index-intro.md"
+                "file": "azure/cloud-concepts/cloud-benefits.md"
               }
             }
           },
@@ -190,14 +190,15 @@
   },
   "active": "d08d969930b6e331",
   "lastOpenFiles": [
-    "azure/cloud-concepts/index-intro.md",
-    "azure/cloud-concepts/shared-responsibility.md",
-    "azure/cloud-concepts/cloud-models.md",
     "azure/cloud-concepts/consumption-based-model.md",
-    "azure/cloud-concepts/cloud-benefits.md",
-    "azure/cloud-concepts/images/shared-responsibility.svg",
+    "azure/cloud-concepts/index-intro.md",
     "azure/cloud-concepts/service-types.md",
+    "azure/cloud-concepts/shared-responsibility.md",
+    "azure/cloud-concepts/images/shared-responsibility.svg",
     "azure/cloud-concepts/images/service-types.svg",
+    "azure/cloud-concepts/cloud-benefits.md",
+    "README.md",
+    "azure/cloud-concepts/cloud-models.md",
     "databases/databases-fundamentals.md",
     "databases/databases-fundamentals-2.md",
     "databases/revision-sheet-2020-2021.md",

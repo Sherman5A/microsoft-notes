@@ -5,7 +5,7 @@ Two models:
 
 1. Capital Expenditure (CapEx)
     - One-time expense.
-    - Examples: new building, buyig a datacenter.
+    - Examples: new building, buying a data-centre.
 
 2. Operation Expenditure (OpEx)
     - Spending money over time.
@@ -19,4 +19,4 @@ Benefits:
 - Can pay for more resources when required.
 - Can stop paying for resources when not required.
 
-This makes cloud computing far more adabtable than private hosting.
+This makes cloud computing far more adaptable than private hosting.

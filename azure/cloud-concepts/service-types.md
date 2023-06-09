@@ -1,7 +1,7 @@
 
 # Cloud Service Types
 
-![[service-types.svg]]
+![[shared-responsibility.svg]]
 
 ## Infrastructure as a Service *(IaaS)*
 
@@ -45,7 +45,7 @@ Consumer responsibilities:
 - Accounts
 
 PaaS scenarios:
-- Development framework: Create applications using framework components using features like scalability,
+- Development frameworks: Create applications using framework components using features like scalability,
   high-availability, etc. This reduces the developers work
 - Analytics: Organisations can analyse their data.
 
