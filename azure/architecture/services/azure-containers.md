@@ -3,7 +3,7 @@
 
 VMs are limited to a single and configuration OS per VM.
 
-> Running several runtime environments would require several VMs with several opearting systems.
+> Running several runtime environments would require several VMs with several operating systems.
 
 To run multiple instances of an application on a single host, we will use containers.
 
@@ -16,7 +16,8 @@ Multiple containers can be run on a single or virtual host.
 However, in containers you don't manage the operating system for the container.
 
 > VMs are an instance of OS
-/
+
+
 > Containers are lightweight and designed to be created, scaled, and stopped frequently.
 
 Container Benefits:
@@ -31,7 +32,7 @@ Container Benefits:
 
 Container bundles a program and its dependencies into one. This is called containerisation.
 
-THe bundle can be deployed to a container host.
+The bundle can be deployed to a container host.
 
 A container host provides a standard runtime environment, abstracting the OS and infrastructure.
 
@@ -46,13 +47,13 @@ environment.
 
 ## Container vs VM
 
-If complete control of a runtime environment is required, a VM may be more sutiable.
+If complete control of a runtime environment is required, a VM may be more suitable.
 
 However, if easy scalability and portability is important, a containerised solution may be better.
 
 ## Container Usage Examples
 
-Containers are commonly used in microservice architectures,
-- Break solution into small, indepedent pieces.
+Containers are commonly used in micro-service architectures,
+- Break solution into small, independent pieces.
 - Isolating pieces means easier maintenance, scaling, and updating.
 

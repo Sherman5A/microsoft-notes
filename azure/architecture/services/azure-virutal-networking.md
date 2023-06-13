@@ -1,15 +1,16 @@
 
-# Azure Virutal Networking
+# Azure Virtual Networking
 
-> Allow Azure resources to communicate with each other, the internet and on-prem devices.
-\
-> Extension of on-prem network with linked Azure resources.
+> Allow Azure resources to communicate with each other, the internet and on-premises devices.
+
+
+> Extension of on-premises network with linked Azure resources.
 
 Provides:
 - Isolation
-- Internet communcication
-- Azure resource communcication
-- On-prem communcication
+- Internet communication
+- Azure resource communication
+- On-premises communication
 - Route network traffic
 - Filter network traffic
 - Connect virtual networks
@@ -20,10 +21,10 @@ Azure virtual networks can have public and private access endpoints
 
 Multiple isolated networks can be created.
 
-Pirvate IP ranges are created and only exist within the network. These ranges can be further divided
-with subnets.
+Private IP ranges are created and only exist within the network. These ranges can be further divided
+with sub-nets.
 
-Azure offers DNS for virutal networks.
+Azure offers DNS for virtual networks.
 
 ## Internet Communications
 
@@ -36,7 +37,7 @@ connections.
 - Service endpoints can connect to other Azure resource types. An Azure SQL database can connect to
   storage accounts.
 
-## On-Prem Communication
+## On-Premises Communication
 
 Create a network spanning local and cloud environments
 
@@ -44,7 +45,7 @@ Create a network spanning local and cloud environments
     - Connection from computer outside network to corporate network
     - Using a VPN connection to connect to Azure virtual network
 - Site-to-site virtual private network
-    - Links a on-prem VPN to Azure VPN gateway in the virtual network
+    - Links a on-premises VPN to Azure VPN gateway in the virtual network
     - Azure appears to be part of the local network
 - Azure ExpressRoute
     - Dedicated private connectivity to Azure, not over the internet

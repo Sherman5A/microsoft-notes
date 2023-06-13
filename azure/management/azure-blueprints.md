@@ -1,27 +1,29 @@
 
 # Azure Blueprints
 
-Allows standardisation of deployments.
+Azure Blueprints,
+> Allow for standardisation of deployments.
 
-Configurations can follow a defined blueprint with policy settings pre-configured.
+Configurations can follow a custom or pre-defined defined blueprint with policy settings pre-configured.
 
-## What are Artifacts?
+Blueprints are version-able, allowing for small updates.
 
-Each component defined in a blueprint is an artifact.
+## What are Artefacts?
 
-Artifacts can have additional parameters if required.
+> Each component defined in a blueprint is an **artefact**.
 
-Parameters can be defined by definition, or they can be assigned when the bluepront is applied to a
+**Artefact Parameters:**
+
+Artefacts can have additional parameters if required.
+
+Parameters can be defined in the blueprint definition. They can also be assigned when the blueprint is applied to a
 scope.
 
-This means you maintain 1 standard blueprint, but have flexiblity to specify relevant artifact
+This means you maintain 1 standard blueprint, but have flexibility to specify relevant artefact
 parameters.
 
-Artifacts can include things like,
+Artefacts can include things like,
 - Role assignments
 - Policy assignments
 - Azure resource manager templates
 - Resource groups
-
-Blueprints are version-able, allowing for small updates.
-

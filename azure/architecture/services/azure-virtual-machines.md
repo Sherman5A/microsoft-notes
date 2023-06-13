@@ -10,7 +10,7 @@ The user can:
 
 VMs provide virtualisation without having to maintain the physical hardware.
 
-Several images are available allowing ofr rapid provision. You can also provide your own image.
+Several images are available allowing for rapid provision. You can also provide your own image.
 
 # Scale VMs
 
@@ -37,7 +37,7 @@ quickly. Scale sets automatically deploy a load balancer to ensure efficiency.
 > Allow you to create available environments through VMs with staggered updates, varied power, and
   different network connections.
 
-These sets ensure teh envrionment is highly available.
+These sets ensure the environment is highly available.
 
 This is done through grouping into two methods:
 
@@ -48,7 +48,7 @@ This is done through grouping into two methods:
 2. Fault Domain
     - Groups VMs by common power source and network switch. VMs, by default, are split between 3 fault
       domains.
-    - Protects against phyiscal or network failures.
+    - Protects against physical or network failures.
 
 # VM Usage Examples
 

@@ -60,7 +60,7 @@ Cloud providers are well suited to handling DDoS attacks.
 
 Two types of manageability:
 
-> Management of the cloud
+**Management of the cloud**
 
 Managing the resources you have:
 - Scaling resources
@@ -68,7 +68,7 @@ Managing the resources you have:
 - Monitoring
 - Automatic alerts
 
-> Management in the cloud
+**Management in the cloud**
 
 What you use to manage the cloud and access it:
 - Web portal

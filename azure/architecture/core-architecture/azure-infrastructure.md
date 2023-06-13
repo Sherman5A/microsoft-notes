@@ -14,9 +14,11 @@ Zones)* that you can access.
 
 ## Azure Regions
 
-Area that contains one or several datacenters that are geographically close and networked together.
+Azure Region:
 
-The resources winthin the area are controlled to meet workloads.
+> Area that contains one or several data centres that are geographically close and networked together.
+
+The resources within the area are controlled to meet workloads.
 
 When deploying a resource, you must decide which region the resource is deployed in.
 
@@ -26,16 +28,18 @@ When deploying a resource, you must decide which region the resource is deployed
 
 ## Availability Zones
 
-[[availability-zones.png]]
+![[availability-zones.png]]
 
-Zones are phyiscally seperate data centers in an Azure Region.
+Availability Zones:
 
-Each zone consists or 1 or more independent data centers. If one zone goes down, the other zones
+> Zones are physically separate data centres in an Azure Region.
+
+Each zone consists or 1 or more independent data centres. If one zone goes down, the other zones
 continue working.
 
 All zones are interconnected.
 
-> All Azure Regions have at least 3 seperate availability zones to ensure reliability and uptime.
+> All Azure Regions have at least 3 separate availability zones to ensure reliability and up-time.
 
 **Usage in Apps:**
 
@@ -48,14 +52,18 @@ Availability Zones are primarily for:
 - SQL databases
 
 Services that use zones have 3 categories:
-- Zonal services - **Resource is pinned to a specific zone** - *VMs, managed disks, IPs*
-- Zone-redundant services - **Platform replicates across zones** - *Zone-redundant storage,
-  SQL databases*
-- Non-regional services - **Services always available even with zone-wdie and region-wide outages**
+- Zonal services -
+	- **Resource is pinned to a specific zone**
+	- *VMs, managed disks, IPs*
+- Zone-redundant services
+	- **Platform replicates across zones**
+	- *Zone-redundant storage, SQL databases*
+- Non-regional services 
+	- **Services always available even with zone-wide and region-wide outages**
 
 ## Region Pairs
 
-[[region-pairs.png]]
+![[region-pairs.png]]
 
 Azure regions are paired with another region at least 300 miles away.
 
@@ -64,15 +72,20 @@ Azure regions are paired with another region at least 300 miles away.
 Most regions are two-way paired. The regions provide backups for each-other.
 **However,** some regions provide only one-direction pairing, instead relying on a line of regions.
 
-## Soverign Regions
+## Sovereign Regions
 
-Soverign regions are instances of Azure isolated from the main instance.
+Sovereign regions:
 
-> These are used for legal reasons.
+> Instances of Azure isolated from the main Microsoft instance.
+
+*These are used for legal reasons.*
 
 Examples:
-- US DoD, US Gov - **Regions have physical and netowkr isolation** - *Operated by screened personnel**
-- China East, China North - **Microsoft does not maintain the datacenters**
+- US DoD, US Gov - 
+	- **Regions have physical and network isolation**
+	- *Operated by screened personnel*
+- China East, China North
+	- **Microsoft does not maintain the data centres**
 
 # Management Infrastructure
 
@@ -110,14 +123,14 @@ Performing an action on a resource group, performs the action on all the resourc
 **Example:** Setting up a temporary development environment
 
 - Grouping the resources
-- Deprovision all resources at once by removing the resource group
+- De-provision all resources at once by removing the resource group
 - Provisioning, several different access schemas, group based on access schemas, assign groups access
 
 ## Azure Subscriptions
 
-[[subscriptions.png]]
+![[subscriptions.png]]
 
-Azure subscriptions are a unit of management, iblling and scale.
+Azure subscriptions are a unit of management, billing and scale.
 
 > Allow you to logically organise resource groups and facilitate billing
 
@@ -126,17 +139,17 @@ To use Azure, you must use have a subscription.
 > Subscriptions provide you with access to Azure products and services. This allows you to provision
   resources.
 
-Azure subscriptions link to Azure accounts, which is an indentity in Azure Active Directory.
+Azure subscriptions link to Azure accounts, which is an identity in Azure Active Directory.
 
-Accounts can have multiple subscriptions. Subscriptions can be used to configur edifferent billing
+Accounts can have multiple subscriptions. Subscriptions can be used to configure different billing
 models and use different access policies.
 - Billing boundary - Determines how an Azure account is billed. Different subscriptions for
-  different types of billing requirements. Seperate billing reports are generated for each
+  different types of billing requirements. Separate billing reports are generated for each
   subscription.
 - Access control boundary - Implement access management at the subscription level. Different departments
   have different subscription policies.
 
-Examples:
+**Examples:**
 - Environments
     - Different subscriptions for development and testing, or data isolation
 - Organisational Structuring
@@ -144,16 +157,15 @@ Examples:
     - IT department can have full range
     - HR could have less resources
 - Billing
-    - Seperate billing
-    - Seperate subscriptions for testing, development, and production.
+    - Separate billing
+    - Separate subscriptions for testing, development, and production.
 
 ## Azure Management Groups
 
-[[management-groups.png]]
+![[management-groups.png]]
 
 Resources are gathered into resource groups, resource groups are gathered into subscriptions,
 subscriptions are gathered into management groups.
 
 Like resource groups and subscriptions, management groups have inheritance.
 However, a major difference is that management groups can be nested.
-

@@ -1,16 +1,16 @@
 
 # Roll Based Access Control (RBAC)
 
-Azure provides roles that describe access roles for cloud resources.
+![[role-based-access-scope.png]]
 
-Custom roles can also be created.
+> Azure provides pre-defined and custom roles that describe access controls for cloud resources.
 
-When a user is assigned a role, they inherit the roles permissions.
+When a user is assigned a role, they inherit the permissions assigned to the role.
 
-Roles are applied to a scope. This can include resources, resources groups, subscriptions, or management
-groups.
+Roles are applied to a scope. 
 
-Example relationship,
-
-[[role-based-access-scope.png]]
-
+Scopes  include:
+- Resources
+- Resources groups
+- Subscriptions
+- Management groups

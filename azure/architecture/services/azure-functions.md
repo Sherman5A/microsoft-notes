@@ -1,7 +1,7 @@
 
 # Azure Functions
 
-> Functions are an event-driven, serverless option.
+> Functions are an event-driven, server-less option.
 
 Azure functions still use servers, but do not require the maintenance of VMs and containers by the
 consumer.

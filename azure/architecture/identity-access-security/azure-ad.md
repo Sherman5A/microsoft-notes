@@ -1,14 +1,14 @@
 
 # Azure Active Directory
+Active Directory:
+>A directory service is a database for storing and maintaining information about users and resources.
 
-A directory service is a database for storing and maintaining information about users and resources.
-
-Azure offers Azure Active Directory that enables identity managment cloud applications and on-prem
+Azure offers Azure Active Directory that enables identity management cloud applications and on-premises
 Active Directories.
 
 ## What is Active Directory
 
-Active Directory provides identity and access managment for services. Azure adds cloud Active Directory.
+>Active Directory provides identity and access management for services. Azure adds cloud Active Directory.
 
 Active Directory is used by:
 - IT administrators
@@ -24,7 +24,7 @@ Active Directory is used by:
 Active Directory provides:
 - Authentication
     - Verifying identities to access resources
-    - Multifactor authentication
+    - Multi-factor authentication
     - Banned passwords
     - Smart lockouts
     - Password resets
@@ -33,7 +33,7 @@ Active Directory provides:
     - As users change roles, access modifications are tied to that identity
     - This means that less accounts are needed in the organisation
 - Application management
-    - Manage cloud and on-prem apps.
+    - Manage cloud and on-premises apps.
 - Device management
     - Registration of devices
     - Management of devices

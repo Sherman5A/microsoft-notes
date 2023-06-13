@@ -15,7 +15,7 @@ Can build and host,
 - WebJobs
 Which are scalable and available.
 
-Can be developed in language or your choice without infrastructure mangagement on both Windows and
+Can be developed in language or your choice without infrastructure management on both Windows and
 Linux.
 
 Azure App Services can be deployed from Git repos and Azure DevOps.

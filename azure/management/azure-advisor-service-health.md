@@ -1,7 +1,7 @@
 
-# Azure Advisor
+# Azure Adviser
 
-Azure Advisor,
+Azure Adviser,
 > Tool that makes recommendations to improve resources reliability, security, performance, and reduce
 > costs
 
@@ -16,7 +16,7 @@ Recommendations are split into five categories:
 # Azure Service Health
 
 Azure Service Health,
-> Tool that keeps trakc of Azure resources, and the overall status of Azure
+> Tool that keeps track of Azure resources, and the overall status of Azure
 
 3 categories:
 - Azure Status
@@ -28,4 +28,3 @@ Azure Service Health,
 - Resource Health
     - Tailored view of Azure resources
     - Provides information on health of your cloud resources
-

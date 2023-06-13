@@ -1,10 +1,10 @@
 
 # External Identities
 
-External identity,
+External identity:
 > A device, person, or service outside the organisation.
 
-Azure AD External Identities are the ways you can interact with external identities.
+Azure AD External Identities are the ways you can interact with external identities. These could be 3rd party businesses, guests, or customers.
 
 You can specify how external identities get resources, and how internal users interact with them.
 

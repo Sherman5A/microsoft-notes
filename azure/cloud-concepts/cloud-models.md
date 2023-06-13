@@ -5,11 +5,10 @@
 
 - Services delivered over the internet used by a single entity.
 - Comes with greater cost.
-- Can be hosted onsite, in a dedicated offsite center, or by a 3rd party.
+- Can be hosted onsite, in a dedicated offsite centre, or by a 3rd party.
 - Has complete control of hardware.
 - Only that entities data is stored.
 
- 
 ## Public Cloud
 
 - IT services offered by 3rd party provider. Anyone can purchase the services and use the providers

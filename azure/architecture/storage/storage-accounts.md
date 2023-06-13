@@ -4,7 +4,7 @@
 Storage accounts offers several redundancy options:
 - Locally redundant storage **(LRS)**
 - Geo-redundant storage **(GRS)**
-- Read-acess goe-redundant storage **(RA-GRS)**
+- Read-access goe-redundant storage **(RA-GRS)**
 - Zone-redundant storage **(ZRS)**
 - Geo-zone-redundant storage **(GZRS)**
 - Read-access geo-zone-redundant storage **(RA-GZRS)**
@@ -31,7 +31,7 @@ LRS replicates the data 3 times within a single data center in the primary regio
 
 [[zone-redundant-storage.png]]
 
-Replicates data synchronously across 3 Azure availabilty zones in the primary region.
+Replicates data synchronously across 3 Azure availability zones in the primary region.
 
 > This provides 12 nines of durability over a year.
 

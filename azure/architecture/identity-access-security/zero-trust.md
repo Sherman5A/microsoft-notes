@@ -1,7 +1,7 @@
 
 # Zero Trust Security Model
 
-Zero trust
+Zero trust:
 
 > Security model that asssumes the worst case scenario always happens.
 

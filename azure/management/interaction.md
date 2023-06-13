@@ -28,7 +28,7 @@ Azure Arc
 
 This provides:
 - Centralised management of an organisations entire environment
-- Management of on-prem resources as if they were running on Azure
+- Management of on-premises resources as if they were running on Azure
 - Ability to use familiar Azure capabilities
 
 Azure arc can manage:
@@ -40,10 +40,10 @@ Azure arc can manage:
 
 # Azure Resource Manager
 
-Azure Rsource Manager (ARM),
+Azure Resource Manager (ARM),
 > Allows you to create, update, and delete resources.
 
-When a user sends a request through an interfaec, ARM recieves the request, then proceeds to authenticate
+When a user sends a request through an interface, ARM receives the request, then proceeds to authenticate
 it. Then, ARM sends the request to the relevant service.
 
 Azure resource manager allows,
@@ -60,7 +60,7 @@ Azure resource manager allows,
 ARM templates provide infrastructure as code.
 
 ARM templates allow you to describe resources you require in a JSON format. Resources specified in
-ARM tempaltes are checked, and then deployed in parallel.
+ARM templates are checked, and then deployed in parallel.
 
 Benefits:
 - Declarative
@@ -76,4 +76,3 @@ Benefits:
     - Templates can be broken into smaller, reusable components and then linked
 - Extensibility
     - Ability to add PowerShell / Bash to templates
-

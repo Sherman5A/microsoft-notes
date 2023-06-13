@@ -1,9 +1,9 @@
 
-# Defense-In-Depth
+# Defence-In-Depth
 
 [[defense-depth.png]]
 
-Defense-in-depth,
+Defence-in-depth,
 
 > Series of mechanism that aims to slow the advance of an attack that aims to get unauthorised access
   to data.
@@ -16,7 +16,7 @@ It slows down an attacker, so that the security team can prepare and act against
 ## DiD Layers
 
 Role of each layer,
-- Physcial Security - **Defends the hardware in the data center**
+- Physical Security - **Defends the hardware in the data centre**
     - Securing access to building
     - Ensure that other layers can't be bypassed
 - Identity & Access - **Controls access to infrastructure and change control**
@@ -26,7 +26,7 @@ Role of each layer,
 - Perimeter - **DDoS protection filters large-scale attacks before they can reduce availability for
                 users**
     - Protects from network-based attacks
-    - Perimiter firewalls identify and altert when malicious attacks happen
+    - Perimeter firewalls identify and alert when malicious attacks happen
 - Network - **Limits communication between resources through segmentation and access control**
     - Resources only have access to whats required
     - Limiting communication reduces the risk of an attack spreading to other resources
@@ -41,4 +41,3 @@ Role of each layer,
     - Sensitive data is stored securely
 - Data - **Controls access to business and customer data**
     - Controls and processes must be put into place to ensure integrity, confidentiality
-

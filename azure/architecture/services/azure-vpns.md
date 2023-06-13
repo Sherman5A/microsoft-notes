@@ -2,7 +2,7 @@
 # VPN Gateways
 
 VPN gateways enable,
-- Connecting on-prem datacenters to virtual networks **(site-to-site)**
+- Connecting on-premises datacenters to virtual networks **(site-to-site)**
 - Connecting devices to virtual networks **(point-to-site)**
 - Connecting virtual works to other virtual networks **(network-to-network)**
 
@@ -13,14 +13,14 @@ Two types of VPNs:
     - Every data packet is evaluating against a set of IP addresses to choose the tunnel where the
       packet is sent.
 2. Route-based
-    - IPSec tunnels modlled as network interfaces. IP routing then decides which tunnel inerfaces to use
+    - IPSec tunnels modelled as network interfaces. IP routing then decides which tunnel interfaces to use
       for each packet.
-    - This makes route-based VPNs more resiliant to changes in network topology.
+    - This makes route-based VPNs more resilient to changes in network topology.
 
 Route-based gateways are used when you require:
-- Connections between virtual netowrks
+- Connections between virtual networks
 - Point to site connections
-- Multisite connections
+- Multi-site connections
 
 # VPN Availability
 
@@ -36,14 +36,13 @@ Connections are interrupted, but they are restored quickly.
 
 ## Active / Active
 
-Each VPN instance has its own public IP. Seperate tunnels are created from the on-prem devices to
+Each VPN instance has its own public IP. Separate tunnels are created from the on-premises devices to
 each public IP. This increases reliability.
 
-## ExpressRoute Failover
+## ExpressRoute Fail-over
 
 If ExpressRoute fails, VPN gateways can be used as an alternative.
 
 ## Zone-Redundant Gateways
 
 Protects from zone-level failures.
-

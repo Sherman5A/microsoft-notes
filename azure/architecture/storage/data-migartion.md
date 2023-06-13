@@ -14,7 +14,7 @@ Offers a variety of tools that aids in migration.
 
 ## Azure Data Box
 
-Physcical migration service.
+Physical migration service.
 
 > Transfers a large amount of data phyiscally through shipping a 80 Tb data box.
 

@@ -1,7 +1,7 @@
 
 # Azure ExpressRoute
 
-Azure connects to on-premises with its own private connection. However, it rquires a connectivity
+Azure connects to on-premises with its own private connection. However, it requires a connectivity
 provider.
 
 Provides:
@@ -10,7 +10,7 @@ Provides:
 - Faster speeds
 - Better latencies
 
-ExpressRoute can be connected globabbly using Microsoft's network. Facilities in Asia and Europe
+ExpressRoute can be connected globally using Microsoft's network. Facilities in Asia and Europe
 can communicate privately.
 
 Moreover, it provides redundancy and high availability.
@@ -19,9 +19,9 @@ Moreover, it provides redundancy and high availability.
 
 ### Co-Location at Cloud Exchange
 
-Datacenter / office is co-loacted at a cloud exchange such as an ISP.
+Datacenter / office is co-located at a cloud exchange such as an ISP.
 
-### Porint-to-Point Ethernet
+### Point-to-Point Ethernet
 
 Private connection that is securely linked with Microsoft.
 

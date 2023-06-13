@@ -13,16 +13,16 @@ Expenditure depends on:
 
 Azure offers many tools to estimate costs,
 
-- Total Cost Ownership (TCO) calculator compares the cost of operating through Azure to operating on-prem
+- Total Cost Ownership (TCO) calculator compares the cost of operating through Azure to operating on-premises
     - Input resources and services
     - Adjust costs based on location and organisation
-    - Report is generated that esimtates costs
-- Pricing Calculator which reccomends Azure services that fit your budget
-    - Esimates cost of provisioning resources
-- Azure Advisor
+    - Report is generated that estimates costs
+- Pricing Calculator which recommends Azure services that fit your budget
+    - Estimates cost of provisioning resources
+- Azure Adviser
     - Monitors actual costs
     - Can limit spending
-    - Provides reccomendations
+    - Provides recommendations
 
 ## Resource Type
 
@@ -32,7 +32,7 @@ When provisioning a resource, Azure creates a metered instance. This tracks the 
 
 **Example: Storage Account**
 
-[[blob-storage.png]]
+![[blob-storage.png]]
 
 Specify,
 - Type
@@ -43,9 +43,9 @@ Specify,
 
 **Example: Virtual Machine**
 
-[[virtual-machine-settings.png]]
+![[virtual-machine-settings.png]]
 
-Specifcy,
+Specify,
 - OS licensing
 - Processor
 - Number of cores
@@ -57,12 +57,12 @@ Specifcy,
 
 Using more computer resources, mean you pay more.
 
-Alternative, pay for resources in advance, and recive discounts on reserved resources up to 72%.
+Alternative, pay for resources in advance, and receive discounts on reserved resources up to 72%.
 
 ## Maintenance
 
 Provisioning a VM provisions additional resources such as storage and networking. When the VM is
-deprovisioned those additional resources may not deprovision at the same time.
+de-provisioned those additional resources may not de-provision at the same time.
 
 ## Geography
 
@@ -86,7 +86,7 @@ You have to pay for the Azure services, and also the 3rd party vendors service e
 
 # Azure Cost Management Tool
 
-Allows you to quikcly check resource costs, create alerts for the resource spending, and create budgets
+Allows you to quickly check resource costs, create alerts for the resource spending, and create budgets
 for automated resource management.
 
 Cost analysis view provides a visual of all Azure costs.
@@ -98,11 +98,11 @@ or usage costs.
 
 **Credit Alerts**
 
-Notifies you when Azure credits  are consumed. Alerts are geneated at 90% and 100% of credit balance.
+Notifies you when Azure credits  are consumed. Alerts are generated at 90% and 100% of credit balance.
 
-**Department Spending Quota Alrts**
+**Department Spending Quota Alerts**
 
-When spending reaches a fixed threshhold of the quota, it notifies dpeartment owners.
+When spending reaches a fixed threshold of the quota, it notifies department owners.
 
 **Budgets**
 
@@ -110,4 +110,3 @@ Set a spending limit for Azure. Budgets can be set for subscriptions, resource g
 etc. 
 
 Budgets can send alerts, or suspend / modify resources after the trigger condition
-

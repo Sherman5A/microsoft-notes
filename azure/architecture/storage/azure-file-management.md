@@ -11,7 +11,7 @@ GUI to manage files and blobs. Uses AzCopy as a backend.
 
 ## Azure File Sync
 
-Bi-directionally synchronises files between a Windows server and Azure files. The Windows server can
+Bidirectionally synchronises files between a Windows server and Azure files. The Windows server can
 act as a cache / CDN.
 
 Azure File Sync provides,
