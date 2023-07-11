@@ -2,4 +2,6 @@
 
 **Designed to be read using Obsdian.**
 
-I may create a fork or branch with links designed for use with github 🤔
+Without Obsidian images do not show correctly as Obsidian has different link formatting to standard markdown.
+
+I may create a fork or branch with links designed for use with github sometime 🤔
